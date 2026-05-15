@@ -1,0 +1,17 @@
+# Secret files
+.env
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# dbt
+movie_transforms/target/
+movie_transforms/logs/
+
+# Logs
+logs/
+
+# CSV files (too large for GitHub)
+Files/
