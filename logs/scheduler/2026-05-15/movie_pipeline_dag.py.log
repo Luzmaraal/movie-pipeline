@@ -1801,3 +1801,24 @@ SyntaxError: EOL while scanning string literal
 [2026-05-15T18:09:54.348+0000] {logging_mixin.py:188} INFO - [2026-05-15T18:09:54.347+0000] {dag.py:3033} INFO - Sync 1 DAGs
 [2026-05-15T18:09:54.378+0000] {logging_mixin.py:188} INFO - [2026-05-15T18:09:54.378+0000] {dag.py:3820} INFO - Setting next_dagrun for movie_pipeline to None, run_after=None
 [2026-05-15T18:09:54.419+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/movie_pipeline_dag.py took 0.764 seconds
+[2026-05-15T18:59:44.883+0000] {processor.py:161} INFO - Started process (PID=1970) to work on /opt/airflow/dags/movie_pipeline_dag.py
+[2026-05-15T18:59:44.886+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/movie_pipeline_dag.py for tasks to queue
+[2026-05-15T18:59:44.888+0000] {logging_mixin.py:188} INFO - [2026-05-15T18:59:44.887+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/movie_pipeline_dag.py
+[2026-05-15T18:59:45.555+0000] {processor.py:840} INFO - DAG(s) 'movie_pipeline' retrieved from /opt/airflow/dags/movie_pipeline_dag.py
+[2026-05-15T18:59:45.624+0000] {logging_mixin.py:188} INFO - [2026-05-15T18:59:45.623+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-05-15T18:59:45.655+0000] {logging_mixin.py:188} INFO - [2026-05-15T18:59:45.655+0000] {dag.py:3820} INFO - Setting next_dagrun for movie_pipeline to None, run_after=None
+[2026-05-15T18:59:45.712+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/movie_pipeline_dag.py took 0.840 seconds
+[2026-05-15T19:00:16.048+0000] {processor.py:161} INFO - Started process (PID=1976) to work on /opt/airflow/dags/movie_pipeline_dag.py
+[2026-05-15T19:00:16.054+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/movie_pipeline_dag.py for tasks to queue
+[2026-05-15T19:00:16.057+0000] {logging_mixin.py:188} INFO - [2026-05-15T19:00:16.057+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/movie_pipeline_dag.py
+[2026-05-15T19:00:16.637+0000] {processor.py:840} INFO - DAG(s) 'movie_pipeline' retrieved from /opt/airflow/dags/movie_pipeline_dag.py
+[2026-05-15T19:00:16.703+0000] {logging_mixin.py:188} INFO - [2026-05-15T19:00:16.702+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-05-15T19:00:16.739+0000] {logging_mixin.py:188} INFO - [2026-05-15T19:00:16.739+0000] {dag.py:3820} INFO - Setting next_dagrun for movie_pipeline to None, run_after=None
+[2026-05-15T19:00:16.795+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/movie_pipeline_dag.py took 0.754 seconds
+[2026-05-15T19:00:47.201+0000] {processor.py:161} INFO - Started process (PID=1982) to work on /opt/airflow/dags/movie_pipeline_dag.py
+[2026-05-15T19:00:47.204+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/movie_pipeline_dag.py for tasks to queue
+[2026-05-15T19:00:47.210+0000] {logging_mixin.py:188} INFO - [2026-05-15T19:00:47.206+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/movie_pipeline_dag.py
+[2026-05-15T19:00:47.988+0000] {processor.py:840} INFO - DAG(s) 'movie_pipeline' retrieved from /opt/airflow/dags/movie_pipeline_dag.py
+[2026-05-15T19:00:48.050+0000] {logging_mixin.py:188} INFO - [2026-05-15T19:00:48.049+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-05-15T19:00:48.081+0000] {logging_mixin.py:188} INFO - [2026-05-15T19:00:48.081+0000] {dag.py:3820} INFO - Setting next_dagrun for movie_pipeline to None, run_after=None
+[2026-05-15T19:00:48.133+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/movie_pipeline_dag.py took 0.945 seconds
